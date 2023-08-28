@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,10 +31,10 @@
 
             <div class="contenedor__login-register">
 
-                <form action="" class="formulario__login">
+                <form action="php/login_usuario_be.php" class="formulario__login" method="POST">
                     <h2>Iniciar Sesion</h2>
-                    <input type="text" placeholder="Correo Electronico">
-                    <input type="password" placeholder="Contraseña">
+                    <input type="text" placeholder="Correo Electronico" name="correo">
+                    <input type="password" placeholder="Contraseña" name="contrasena">
                     <button>Entrar</button>
                 </form>
 
